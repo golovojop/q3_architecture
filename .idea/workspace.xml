@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b77ba1b2-7449-4445-82d7-9b3cce46e1ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson3/src/main/java/FabricPatternApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3/src/main/java/FabricPatternApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/src/main/java/factories/ChinaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3/src/main/java/factories/ChinaFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/src/main/java/factories/OEMFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3/src/main/java/factories/OEMFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/src/main/java/factories/TaiwanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3/src/main/java/factories/TaiwanFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lesson3/src/main/java/FabricPatternApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="304">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/Lesson3/src/main/java/factories/OEMFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="e#556#557#0" expanded="true" />
                 <element signature="e#638#639#0" expanded="true" />
@@ -65,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lesson3/src/main/java/factories/TaiwanFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="266">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
                 <element signature="e#327#328#0" expanded="true" />
                 <element signature="e#355#356#0" expanded="true" />
@@ -104,10 +100,10 @@
         <option value="$PROJECT_DIR$/Lesson3/src/main/java/products/FiberCard.java" />
         <option value="$PROJECT_DIR$/Lesson3/src/main/java/products/WifiCard.java" />
         <option value="$PROJECT_DIR$/Lesson3/src/main/java/factories/HardwareManufacturer.java" />
-        <option value="$PROJECT_DIR$/Lesson3/src/main/java/FabricPatternApp.java" />
         <option value="$PROJECT_DIR$/Lesson3/src/main/java/factories/OEMFactory.java" />
         <option value="$PROJECT_DIR$/Lesson3/src/main/java/factories/ChinaFactory.java" />
         <option value="$PROJECT_DIR$/Lesson3/src/main/java/factories/TaiwanFactory.java" />
+        <option value="$PROJECT_DIR$/Lesson3/src/main/java/FabricPatternApp.java" />
       </list>
     </option>
   </component>
@@ -130,6 +126,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,11 +187,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566466592062" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566467039947" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -247,7 +243,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -325,7 +321,7 @@
     <entry file="file://$PROJECT_DIR$/Lesson3/src/main/java/factories/OEMFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="e#556#557#0" expanded="true" />
             <element signature="e#638#639#0" expanded="true" />
@@ -342,8 +338,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson3/src/main/java/factories/TaiwanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="266">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="e#327#328#0" expanded="true" />
             <element signature="e#355#356#0" expanded="true" />
@@ -360,8 +356,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson3/src/main/java/FabricPatternApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="304">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
