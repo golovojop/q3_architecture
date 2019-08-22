@@ -1,6 +1,7 @@
 import factories.HardwareManufacturer;
 import interfaces.HardwareFactory;
 
+
 public class FabricPatternApp {
     public static void main(String[] args) {
         HardwareManufacturer hm = new HardwareManufacturer();
