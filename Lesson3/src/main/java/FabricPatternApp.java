@@ -8,7 +8,6 @@ public class FabricPatternApp {
         HardwareFactory hwfChina = hm.createFactory("china");
         HardwareFactory hwfOem = hm.createFactory("");
 
-
         System.out.println(hwfChina.createEthernetCard());
         System.out.println(hwfOem.createFiberCard());
         System.out.println(hwfOem.createEthernetCard());

@@ -17,17 +17,17 @@ public class OEMFactory implements HardwareFactory {
 
     @Override
     public HardwareProduct createWifiCard() {
-        return new WifiCard(vendorName(), Long.toString(partNumber++));
+        return new WifiCard(vendorName(), Long.toString(++partNumber));
     }
 
     @Override
     public HardwareProduct createEthernetCard() {
-        return new EthernetCard(vendorName(), Long.toString(partNumber++));
+        return new EthernetCard(vendorName(), Long.toString(++partNumber));
     }
 
     @Override
     public HardwareProduct createFiberCard() {
-        return new FiberCard(vendorName(), Long.toString(partNumber++));
+        return new FiberCard(vendorName(), Long.toString(++partNumber));
     }
 
     private String vendorName() {
