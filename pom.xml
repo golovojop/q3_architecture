@@ -23,6 +23,7 @@
     </build>
     <modules>
         <module>Lesson3</module>
+        <module>Lesson4</module>
     </modules>
     <dependencies>
         <dependency>
