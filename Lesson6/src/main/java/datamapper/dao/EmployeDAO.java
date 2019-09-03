@@ -22,9 +22,9 @@ public class EmployeDAO {
             try(ResultSet rs = statement.executeQuery()){
                 if(rs != null && rs.next()) {
                     return new EmployeBuilder()
-                            .id(rs.getInt(1,))
+                            .id(rs.getInt(1))
                             .lastName(rs.getString(2))
-                            .firstName(rs.getNString(3))
+                            .firstName(rs.getString(3))
                             .age(rs.getInt(4))
                             .salary(rs.getInt(5))
                             .build();

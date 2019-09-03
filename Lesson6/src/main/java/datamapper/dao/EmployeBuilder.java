@@ -63,5 +63,16 @@ public class EmployeBuilder {
         public int getSalary() {
             return salary;
         }
+
+        @Override
+        public String toString() {
+            return "Employe{" +
+                    "id=" + id +
+                    ", lastname='" + lastname + '\'' +
+                    ", firsname='" + firsname + '\'' +
+                    ", age=" + age +
+                    ", salary=" + salary +
+                    '}';
+        }
     }
 }

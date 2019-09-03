@@ -1,22 +1,24 @@
 package datamapper.dao;
 
+import com.sun.istack.internal.Nullable;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class JdbcConnection {
     private static Connection connection = null;
-    private static String url = "jdbc:sqlite:lesson3.db";
+    private static String url = "jdbc:sqlite:lesson6.db";
 
-    private static Connection connect() throws SQLException{
+    private static @Nullable Connection connect() throws SQLException{
         try {
             Class.forName("org.sqlite.JDBC");
             connection = DriverManager.getConnection(url);
-            return connection;
         } catch (ClassNotFoundException e) {
             System.out.println(e.getMessage());
             System.exit(0);
         }
+        return null;
     }
 
     public static void disconnect() {
@@ -27,7 +29,7 @@ public class JdbcConnection {
         }
     }
 
-    public static Connection getConnection() throws SQLException {
+    public static @Nullable Connection getConnection() throws SQLException {
         if(connection != null) {
             return connection;
         } else {
