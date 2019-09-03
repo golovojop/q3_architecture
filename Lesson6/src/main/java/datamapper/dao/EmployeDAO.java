@@ -1,20 +1,24 @@
 package datamapper.dao;
 
+import datamapper.domain.EmployeBuilder;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class EmployeDAO {
-    private final String QUERY_BY_ID = "select * from employes where id=?";
 
-    private Connection connection = null;
+    private Connection connection;
 
     public EmployeDAO(Connection connection) {
         this.connection = connection;
     }
 
     public EmployeBuilder.Employe getById(int id) throws SQLException {
+
+        final String QUERY_BY_ID = "select * from employes where id=?";
+
         try (PreparedStatement statement = connection.prepareStatement(QUERY_BY_ID)){
 
             statement.setInt(1, id);
@@ -29,7 +33,7 @@ public class EmployeDAO {
                             .salary(rs.getInt(5))
                             .build();
                 }
-            }
+            } catch (Exception e) {e.printStackTrace();}
 
         }
         throw new RuntimeException("Unexpected error");

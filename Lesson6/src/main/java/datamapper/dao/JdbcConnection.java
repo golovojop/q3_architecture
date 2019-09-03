@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 public class JdbcConnection {
     private static Connection connection = null;
-    private static String url = "jdbc:sqlite:lesson6.db";
+    private static final String url = "jdbc:sqlite:lesson6.db";
 
     private static @Nullable Connection connect() throws SQLException{
         try {
@@ -18,7 +18,7 @@ public class JdbcConnection {
             System.out.println(e.getMessage());
             System.exit(0);
         }
-        return null;
+        return connection;
     }
 
     public static void disconnect() {

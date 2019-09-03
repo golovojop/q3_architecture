@@ -1,4 +1,4 @@
-package datamapper.dao;
+package datamapper.domain;
 
 public class EmployeBuilder {
 
@@ -19,7 +19,7 @@ public class EmployeBuilder {
     }
 
     public EmployeBuilder firstName(String firstName) {
-        employe.firsname = firstName;
+        employe.firstname = firstName;
         return this;
     }
 
@@ -40,7 +40,7 @@ public class EmployeBuilder {
     public class Employe {
         private int id;
         private String lastname;
-        private String firsname;
+        private String firstname;
         private int age;
         private int salary;
 
@@ -53,7 +53,7 @@ public class EmployeBuilder {
         }
 
         public String getFirsname() {
-            return firsname;
+            return firstname;
         }
 
         public int getAge() {
@@ -69,7 +69,7 @@ public class EmployeBuilder {
             return "Employe{" +
                     "id=" + id +
                     ", lastname='" + lastname + '\'' +
-                    ", firsname='" + firsname + '\'' +
+                    ", firstname='" + firstname + '\'' +
                     ", age=" + age +
                     ", salary=" + salary +
                     '}';
