@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b77ba1b2-7449-4445-82d7-9b3cce46e1ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/DataMapperApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/DataMapperApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/dao/EmployeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/dao/EmployeBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/dao/EmployeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/domain/EmployeBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/dao/EmployeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/dao/EmployeDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/dao/JdbcConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/dao/JdbcConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson6.db" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6.db" afterDir="false" />
@@ -26,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/datamapper/DataMapperApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="266">
+              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -35,8 +34,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/datamapper/dao/JdbcConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="152">
+              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,17 +46,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/datamapper/dao/EmployeDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="182">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/datamapper/dao/EmployeBuilder.java">
+        <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/datamapper/domain/EmployeBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1007">
-              <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+            <state relative-caret-position="412">
+              <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -75,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Lesson3/src/main/java/interfaces/AbstractHardwareProduct.java" />
         <option value="$PROJECT_DIR$/Lesson3/src/main/java/products/USBProduct.java" />
         <option value="$PROJECT_DIR$/Lesson3/src/main/java/products/PCIProduct.java" />
@@ -125,6 +126,7 @@
         <option value="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/dao/EmployeBuilder.java" />
         <option value="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/dao/EmployeDAO.java" />
         <option value="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/dao/JdbcConnection.java" />
+        <option value="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/domain/EmployeBuilder.java" />
         <option value="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/DataMapperApp.java" />
       </list>
     </option>
@@ -136,8 +138,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="24" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="334" />
+    <option name="y" value="533" />
     <option name="width" value="1612" />
     <option name="height" value="876" />
   </component>
@@ -149,8 +152,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,54 +164,16 @@
               <item name="architecture" type="462c0819:PsiDirectoryNode" />
               <item name="Lesson6" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datamapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datamapper" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567506651863" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567517401455" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jsp_lesson3_chat.git" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -318,10 +281,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="334" y="533" width="1612" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26918977" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32860824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -329,8 +292,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2974428" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -354,13 +317,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Lesson3/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson3/src/main/java/products/WifiCard.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -588,33 +544,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson6/pom.xml" />
     <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/datamapper/dao/Employe.java" />
-    <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/datamapper/dao/EmployeBuilder.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+        <state relative-caret-position="494">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson6/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/datamapper/dao/JdbcConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="152">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/datamapper/domain/EmployeBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/datamapper/DataMapperApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="266">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/datamapper/dao/EmployeDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="182">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
