@@ -1,5 +1,3 @@
-package datamapper.dao;
-
 import com.sun.istack.internal.Nullable;
 
 import java.sql.Connection;
@@ -24,7 +22,8 @@ public class JdbcConnection {
     public static void disconnect() {
         try {
             connection.close();
-        } catch (SQLException e) {
+            connection = null;
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

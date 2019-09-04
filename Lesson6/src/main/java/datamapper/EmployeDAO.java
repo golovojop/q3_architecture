@@ -1,6 +1,7 @@
-package datamapper.dao;
+package datamapper;
 
-import datamapper.domain.EmployeBuilder;
+import domain.Employe;
+import domain.EmployeBuilder;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -9,13 +10,7 @@ import java.sql.SQLException;
 
 public class EmployeDAO {
 
-    private Connection connection;
-
-    public EmployeDAO(Connection connection) {
-        this.connection = connection;
-    }
-
-    public EmployeBuilder.Employe getById(int id) throws SQLException {
+    public Employe getById(Connection connection, int id) throws SQLException {
 
         final String QUERY_BY_ID = "select * from employes where id=?";
 
