@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b77ba1b2-7449-4445-82d7-9b3cce46e1ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/DataMapperApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson6/src/main/java/Lesson6App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/dao/EmployeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/EmployeDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/dao/JdbcConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson6/src/main/java/JdbcConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/domain/EmployeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson6/src/main/java/domain/EmployeBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/EmployeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/EmployeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson6/src/main/java/identitymap/EmployeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson6/src/main/java/identitymap/EmployeManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,49 +18,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1728868240">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="13" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="13" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="15" />
-          <entry key="java" value="385" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="385" />
-          <entry key="PLAIN_TEXT" value="15" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/Lesson6App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/identitymap/EmployeManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/datamapper/EmployeDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -83,7 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Lesson3/src/main/java/factories/PCIFactory.java" />
         <option value="$PROJECT_DIR$/Lesson3/src/main/java/interfaces/HardwareProduct.java" />
         <option value="$PROJECT_DIR$/Lesson3/src/main/java/products/EthernetCard.java" />
         <option value="$PROJECT_DIR$/Lesson3/src/main/java/products/FiberCard.java" />
@@ -133,6 +112,7 @@
         <option value="$PROJECT_DIR$/Lesson6/src/main/java/domain/Employe.java" />
         <option value="$PROJECT_DIR$/Lesson6/src/main/java/Lesson6App.java" />
         <option value="$PROJECT_DIR$/Lesson6/src/main/java/JdbcConnection.java" />
+        <option value="$PROJECT_DIR$/Lesson6/src/main/java/datamapper/EmployeDAO.java" />
         <option value="$PROJECT_DIR$/Lesson6/src/main/java/identitymap/EmployeManager.java" />
       </list>
     </option>
@@ -162,73 +142,45 @@
         <subPane>
           <expand>
             <path>
-              <item name="q3_architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="q3_architecture" type="462c0819:PsiDirectoryNode" />
+              <item name="architecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="architecture" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="q3_architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="q3_architecture" type="462c0819:PsiDirectoryNode" />
+              <item name="architecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="architecture" type="462c0819:PsiDirectoryNode" />
               <item name="Lesson6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="q3_architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="q3_architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="q3_architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="q3_architecture" type="462c0819:PsiDirectoryNode" />
+              <item name="architecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="architecture" type="462c0819:PsiDirectoryNode" />
               <item name="Lesson6" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="q3_architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="q3_architecture" type="462c0819:PsiDirectoryNode" />
+              <item name="architecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="architecture" type="462c0819:PsiDirectoryNode" />
               <item name="Lesson6" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="q3_architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="q3_architecture" type="462c0819:PsiDirectoryNode" />
+              <item name="architecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="architecture" type="462c0819:PsiDirectoryNode" />
               <item name="Lesson6" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datamapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="q3_architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="q3_architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="q3_architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="q3_architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="identitymap" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567570787131" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567613384624" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jsp_lesson3_chat.git" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -254,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Lesson6App">
     <configuration name="BridgeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bridge.BridgeApp" />
       <module name="Lesson4" />
@@ -339,10 +291,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1920" height="1043" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27854857" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28144988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -351,7 +303,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24262296" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24160346" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -371,9 +323,6 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Lesson3/pom.xml">
@@ -614,54 +563,27 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson6/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/domain/EmployeBuilder.java">
+    <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/domain/EmployeBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/domain/Employe.java" />
+    <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/JdbcConnection.java" />
+    <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/Lesson6App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/domain/Employe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/JdbcConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/datamapper/EmployeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="190">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/identitymap/EmployeManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="437">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/Lesson6App.java">
+    <entry file="file://$PROJECT_DIR$/Lesson6/src/main/java/datamapper/EmployeDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="437">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
         </state>
       </provider>
     </entry>
