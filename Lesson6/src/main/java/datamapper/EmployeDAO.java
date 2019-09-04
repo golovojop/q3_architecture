@@ -10,7 +10,7 @@ import java.sql.SQLException;
 
 public class EmployeDAO {
 
-    public Employe getById(Connection connection, int id) throws SQLException {
+    public static Employe getById(Connection connection, int id) throws SQLException {
 
         final String QUERY_BY_ID = "select * from employes where id=?";
 

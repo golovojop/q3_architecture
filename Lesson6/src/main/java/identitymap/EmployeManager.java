@@ -23,7 +23,7 @@ public class EmployeManager {
             return map.get(id);
         } else {
             System.out.println("Object from DB:");
-            Employe employe = new EmployeDAO().getById(connection, id);
+            Employe employe = EmployeDAO.getById(connection, id);
             map.put(id, employe);
             return employe;
         }
