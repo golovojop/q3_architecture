@@ -10,6 +10,7 @@
         <module name="Lesson4" />
         <module name="Lesson5" />
         <module name="Lesson6" />
+        <module name="Lesson7" />
       </profile>
     </annotationProcessing>
   </component>
